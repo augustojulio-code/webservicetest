@@ -1,0 +1,36 @@
+body{background-image: url(IMG/fundo6.jpg);
+	background-repeat: no-repeat;}
+
+
+.L1{font-size: 45px;
+	font-style: arial;
+	color:#ffffff;}
+
+.s1{background-image: url(IMG/fundo3.jpg);
+	width:1870px;
+	height:300px;
+	
+	}
+
+.s2{background-image: url(IMG/fundo3.jpg);
+	
+	}		
+
+.s3{background-image: url(IMG/fundo3.jpg);
+	width:1260px;
+	height:250px;
+	margin-left: 300px}
+
+.p1{font-size: 30px;
+	color:#ffffff;}
+
+.p2{color:#ffffff;
+	font-size: 22px;
+	}
+
+.fix{
+	clear:both;
+	}	
+.m1{margin-left: 780px;
+	margin-top:-600px;}
+	
