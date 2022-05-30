@@ -1,0 +1,54 @@
+<!doctype html>
+<!DOCTYPE html >
+<html lang="pt-BR">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="">
+	<title>Projeto Java</title>
+</head>
+<body>
+	<form name="form1">
+		<center>
+			<input type="text" name="txtnome" size="60">
+			<br>
+			<br>
+			<input type="button" value="enviar" onclick="Nome()">
+			<br>
+			<br>
+			<button type="reset" value="Limpar" onclick="clear">Limpar</button>
+		</center>
+
+	</form>
+	<script language="JavaScript">
+		function Nome()
+		{
+			//Verificar se o nome está em branco
+			Nome=document.form1.txtnome.value
+			
+			if (Nome=="") 
+				{
+					alert("o campo nome é obrigatório, Por favor digite seu nome")
+					return false
+					
+				}
+
+				//verificar se o valor digitadoé um numero
+			 if(isNaN(Nome)==false)
+				{
+					alert("o campo nome não pode ser composto por números")
+					return false 
+				}
+
+				//Verificar se o valor digitado é um texto
+			 if (isNaN(Nome)==true) 
+				{
+					alert("Olá "+Nome+ " Seja bem vindo")
+					return false
+				}
+
+		}
+		
+	</script>
+
+</body>
+</html>
